@@ -44,6 +44,4 @@ for n in range(1, 20):
         
     p=np.polyfit(x_coordinates, y_coordinates, len(x_coordinates)-1)
     p=p[::-1]
-    diagram()
-    
-        
+    diagram()     
